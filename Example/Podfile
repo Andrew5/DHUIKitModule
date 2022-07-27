@@ -1,0 +1,14 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'DHUIKitModule_Example' do
+  pod 'DHUIKitModule', :path => '../'
+
+  target 'DHUIKitModule_Tests' do
+    inherit! :search_paths
+
+    pod 'Kiwi'
+    pod 'FBSnapshotTestCase'
+  end
+end
