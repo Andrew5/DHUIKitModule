@@ -1,0 +1,43 @@
+PODS:
+  - DHUIKitModule (0.1.0):
+    - lottie-ios (~> 2.5.3)
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - Kiwi (3.0.0)
+  - lottie-ios (2.5.3)
+
+DEPENDENCIES:
+  - DHUIKitModule (from `../`)
+  - FBSnapshotTestCase
+  - Kiwi
+  - lottie-ios (from `https://gitee.com/dog-third/lottie-ios.git`, tag `2.5.3`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+    - Kiwi
+
+EXTERNAL SOURCES:
+  DHUIKitModule:
+    :path: "../"
+  lottie-ios:
+    :git: https://gitee.com/dog-third/lottie-ios.git
+    :tag: 2.5.3
+
+CHECKOUT OPTIONS:
+  lottie-ios:
+    :git: https://gitee.com/dog-third/lottie-ios.git
+    :tag: 2.5.3
+
+SPEC CHECKSUMS:
+  DHUIKitModule: 7d587e263a6a925aadda28d8bea740190948c175
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  Kiwi: fbeafef0f00e4d8f7dcb3420a4930afe70af77f7
+  lottie-ios: a50d5c0160425cd4b01b852bb9578963e6d92d31
+
+PODFILE CHECKSUM: b60c50c0e6d376c80d1a2fecdbe0557717d6f76c
+
+COCOAPODS: 1.11.3

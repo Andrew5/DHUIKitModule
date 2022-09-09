@@ -7,6 +7,7 @@
 //
 
 #import "DHViewController.h"
+#import <DHUIKitModule/DHUIKitModule-umbrella.h>
 
 @interface DHViewController ()
 
@@ -17,7 +18,16 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    self.view.backgroundColor = UIColor.whiteColor;
+
 	// Do any additional setup after loading the view, typically from a nib.
+    [DHProgressHUD showHUDAddedTo:self.view];
+    [self performSelector:@selector(hiddentView) withObject:self afterDelay:5];
+}
+
+- (void)hiddentView {
+    
+    [DHProgressHUD hide];
 }
 
 - (void)didReceiveMemoryWarning

@@ -10,5 +10,6 @@ target 'DHUIKitModule_Example' do
 
     pod 'Kiwi'
     pod 'FBSnapshotTestCase'
+    pod 'lottie-ios', :git => 'https://gitee.com/dog-third/lottie-ios.git', :tag => '2.5.3'
   end
 end
